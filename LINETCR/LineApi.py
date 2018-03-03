@@ -52,17 +52,17 @@ class LINE:
     self.token = self.channel.token
     self.obs_token = self.channel.obs_token
     self.refresh_token = self.channel.refresh_token
-    self._headers = {
-              'X-Line-Application': 'CHROMEOS\t1.4.17\tChrome_OS\t1',
-              'X-Line-Access': self.authToken,
-              'User-Agent': 'Line/1.4.17'
-               }
-
 #    self._headers = {
- #             'X-Line-Application': 'IOSIPAD\x097.14.0\x09iPhone_OS\x0910.12.0',
-  #            'X-Line-Access': self.authToken,
-   #           'User-Agent': 'Line/7.14.0'
-    #           }
+#              'X-Line-Application': 'CHROMEOS\t1.4.17\tChrome_OS\t1',
+ #             'X-Line-Access': self.authToken,
+  #            'User-Agent': 'Line/1.4.17'
+   #            }
+
+    self._headers = {
+              'X-Line-Application': 'IOSIPAD\x097.18.0\x09iPhone_OS\x0910.12.1',
+              'X-Line-Access': self.authToken,
+              'User-Agent': 'Line/7.18.0'
+               }
 
 
   """User"""
