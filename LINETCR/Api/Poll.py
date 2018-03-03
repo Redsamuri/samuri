@@ -1,4 +1,4 @@
-import os, sys, time
+0import os, sys, time
 path = os.path.join(os.path.dirname(__file__), '../lib/')
 sys.path.insert(0, path)
 
@@ -18,11 +18,11 @@ class Poll:
   host = "gd2.line.naver.jp";
   port = 443;
 
-  UA = "Line/1.4.17"
-  LA = "CHROMEOS\t1.4.17\tChrome_OS\t1"
+#  UA = "Line/1.4.17"
+ # LA = "CHROMEOS\t1.4.17\tChrome_OS\t1"
 
-#  UA = "Line/7.4.7 iPad3,6 7.0.2"
- # LA = "IOSIPAD\t7.4.7\tiPhone OS\t7.0.2"
+  UA = "Line/7.18.0"
+  LA = "IOSIPAD\t7.18.0\tiPhone OS\t11.12.1"
 
   rev = 0
 
