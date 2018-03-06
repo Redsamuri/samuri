@@ -59,7 +59,7 @@ class LINE:
    #            }
 
     self._headers = {
-              'X-Line-Application': 'IOSIPAD\x097.18.0\x09iPhone_OS\x0910.12.1',
+              'X-Line-Application': 'IOSIPAD\x097.18.0\x09iPhone_OS\x0911.12.1',
               'X-Line-Access': self.authToken,
               'User-Agent': 'Line/7.18.0'
                }
@@ -424,9 +424,9 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("===============[Chucky_Bot]================")
+      print("===============[Redsamuri_Bot]================")
       print("        Thanks for TCR and my friend")
-      print("===============[© By_Nadya]================")
+      print("===============[© By_Red]================")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
