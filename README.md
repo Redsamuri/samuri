@@ -1,29 +1,39 @@
-# welcom to Redsamuri selfbot
+# WELCOME TO RED SAMURI SELFBOT
+
+[กอปปี้ไปวางทีละตัว. วางเสร็จแล้วกดเอ็นเทอร์ ถ้ามี N/Yให้กดy แล้วเอ็นเทอร์]
+
+1.  pkg install python2
+2.  kg install git
+3.  pkg install nano
+4.  pkg install googeltrans
+5.  pkg install Transletor
+6.  pkg install pip
+7.  pkg install rsa
+8.  termux-setup-storage
+9.  apt update
+10. apt upgrade
+11. ls
+12. cd storage
+13. cd downloads
+14. git clone https://github.com/Redsamuri/Samuri.git
+15. pip2 install thrift==0.9.3
+16. pip2 install rsa
+17. pip2 install requests
+18. pip2 install goslate
+19. pip2 install client
+20. pip2 install wikipedia
+21. pip2 install googletrans
+22. pip2 install bs4
+23. pip2 install gtts
+24. pip2 install translate
+25. pip2 install urllib3
+
 รันตามนี้เลย..ง่ายๆ..ไม่ต้องแก้ไรมาก..รันเสร็จแก้แค่โทเคนกับ mid
 ---------------------------------------------------
 
-👉#pkg install python
-👉#pkg install python2
-👉#pkg install git
-👉#pkg install nano
-👉#pkg Translator
-👉#apt update
-👉#apt upgrade
-👉#pip2 Install rsa
-👉#pip2 Install requests
-👉#pip2 Install thrift==0.9.3
-👉#pip2 install gtts
-👉#pip2 install goslate
-👉#pip2 install wikipedia
-👉#pip2 install BeautifulSoup
-👉#pip2 install BeautifulSoup4
-👉#pip2 install html5
-👉#pip2 install tweepy
-👉#pip2 install pyowm
-👉#pip2 install googeltrans
-👉#git clone https://github.com/Redsamuri/samuri.git
-👉#nano ตามด้วยชื่อไฟล์ที่เราจะแก้[👉แก้ไอดีกับโทเคนของคุณ👈]
-👉#python2 ตามด้วยชื่อไฟล์ที่แก้เสร็จแล้ว
+26. nano ตามด้วยชื่อไฟล์ที่เราจะแก้[👉แก้ไอดีกับโทเคนของคุณ👈]
+27. python2 ตามด้วยชื่อไฟล์ที่แก้เสร็จแล้ว
+
 ....เสร็จ...........By.Redsamuri
 💋💝💝💝💝💝💝💝💝💝💝💝💝💝💋
 
