@@ -14,7 +14,7 @@ from googletrans import Translator
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib => sudo pip install requests => sudo pip install gTTS
 
 cl = LINETCR.LINE()
-cl.login(token="EqFWCbIxy5L6MVx4IQy3.TAVOkm2wqPizxdXz1JiGmW.PAPgPSrwRI8925RlvtjgJSlrC9R98AzdigqQEl4HfEo=")
+cl.login(token="ใส่โทเคนที่ช่องนี้")
 cl.loginResult()
 
 
@@ -151,8 +151,8 @@ helptranslate ="""
 KAC=[cl]
 mid = cl.getProfile().mid
 mid = cl.getProfile().mid
-Bots=[mid,"u94a1bc387b927e86756334648d314f86","u5b35c9714ca359616335efed888537a8","ube52b8931eee2e15a1b689377e3e5637","u1aedef8b888ae108d96bacbc5054e679","u99cde2e2a4a4b11bfd4cc418913e8986","u1865fbab05ea885ca7bd481ec35c9a1d","u46a050ebcc66a90b47fae6256547cc53","u656b0ca994a1c9b462f9feb6f5ae3177","ub5abe828cd964292195c3c59d6322033"]
-admin=["u94a1bc387b927e86756334648d314f86","u5b35c9714ca359616335efed888537a8","ube52b8931eee2e15a1b689377e3e5637","u1aedef8b888ae108d96bacbc5054e679","u99cde2e2a4a4b11bfd4cc418913e8986","u1865fbab05ea885ca7bd481ec35c9a1d","u46a050ebcc66a90b47fae6256547cc53","u656b0ca994a1c9b462f9feb6f5ae3177","ub5abe828cd964292195c3c59d6322033""uc360193fd87f05f352673cadbd9f2947","u3a737b8dc7135de09ceb6741c46d709f","ub2a4ba24b217b1bd64336a8a8cca11a1","uecdd917f87c7a68b90fe3055cd79fb48"]
+Bots=[mid]
+admin=[mid]
 
 
 wait = {
@@ -166,10 +166,10 @@ wait = {
     "spam":{},
     'contact':False,
     'autoJoin':True,
-    'autoCancel':{"on":False,"members":5},
+    'autoCancel':{"on":True,"members":50},
     'leaveRoom':True,
     'timeline':False,
-    'autoAdd':True,
+    'autoAdd':False,
     'message':"""🌾(●´з`)♡🌹แอดมาทำไมคับ 🌸แอดมาจีบรึแอดมารัน🌹(´ε｀ )♡🌾""",
     "lang":"JP",
     "comment":"...by redbot",
@@ -453,7 +453,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ ==  "ub5abe828cd964292195c3c59d6322033":
+                if msg.from_ ==  mid:
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
